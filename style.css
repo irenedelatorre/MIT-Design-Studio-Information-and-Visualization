@@ -1,0 +1,25 @@
+body {
+    padding: 50px;
+    font-family: "HelveticaNeueLT Std","Helvetica LT Std", "Helvetica", "Arial", "sans-serif";
+}
+
+h1{
+    font-weight: 100;
+}
+
+h3{
+    text-transform: uppercase;
+    font-size: 1.1em;
+    letter-spacing: 0.03em;
+    color: #00c1ff;
+    /* font-weight: bolder; */
+    line-height: 2em;
+}
+
+a {
+    color: #04c5ff;
+}
+
+.bold{
+    font-weight: bold;
+}
