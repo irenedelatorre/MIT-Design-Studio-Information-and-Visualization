@@ -4,6 +4,7 @@ body {
 }
 
 #plot1, #plot2, #plot3 {
+    display: block;
     width: 414px;
     height: 736px;
     border: 1px solid;
@@ -33,7 +34,10 @@ h1.col-md-12 {
 }
 
 .row {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 img {
