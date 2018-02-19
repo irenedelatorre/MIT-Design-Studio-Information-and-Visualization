@@ -1,0 +1,14 @@
+body {
+    padding: 50px;
+}
+
+
+#mobile1,#mobile2 {
+    width: 414px;
+    height: 736px;
+    border: 1px solid;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:40px;
+}
