@@ -1,0 +1,26 @@
+body {
+    padding: 50px;
+    font-family: "HelveticaNeueLT Std","Helvetica LT Std Light", "Helvetica", "Arial", "sans-serif";
+}
+
+h2{
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+#plot1, #plot2{
+    height:300px;
+}
+
+.axis-y .tick line, #plot2 .axis-x .tick line  {
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+    stroke: #e8eced;
+}
+
+
+.axis-x .tick line, .axis-x .tick path, .axis-y .tick path {
+    stroke-width: 1px;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
