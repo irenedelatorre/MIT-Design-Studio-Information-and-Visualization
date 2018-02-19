@@ -24,7 +24,7 @@ var format24Hour = d3.timeFormat("%H");
 var format24Minute = d3.timeFormat("%M");
 
 // animation variables
-var t_hour = 721;
+var t_hour = 300;
 var speed = 1; // 2 minute
 var t_min = 60;
 

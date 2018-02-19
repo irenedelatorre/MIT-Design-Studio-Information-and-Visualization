@@ -23,10 +23,10 @@ setInterval(drawcanvas3, 1000);
 //var format24Hour = d3.timeFormat("%H");
 //var format24Minute = d3.timeFormat("%M");
 
-// animation variables
-var t_hour = 721;
-var speed3 = 5; // 2 minute
-var t_min = 60;
+
+var t_h = 420;
+var s3 = 2; // 2 minute
+var t_m = 0;
 
 //if were going to be drawing the same thing over and over automate it 
 function drawcanvas3(){
@@ -41,10 +41,10 @@ function drawcanvas3(){
     var hourLineVertInt = canvas3RealHeight/13;
     var hourLineHorInt = canvas3RealWidth/13;
     
-    drawHours(t_hour);
+    drawHours(t_h);
     
-    function drawHours(thour){
-        var t = Math.max(1,Math.floor(thour/60))
+    function drawHours(t_hour){
+        var t = Math.max(1,Math.floor(t_hour/60))
         var num;
         for(num=1; num<26; num++){
             ctx3.beginPath();
@@ -62,55 +62,54 @@ function drawcanvas3(){
     
     var minLineHorInt = canvas3RealHeight/61;
     
-    drawMinutes(t_min);
     
-    function drawMinutes(tmin){
-        var num;
-        for(num=1; num<61; num++){
-            ctx3.beginPath();
-            ctx3.strokeStyle = "#000000"; 
-            ctx3.rect(canvas3RealWidth-1.2*hourLineHorInt,0,hourLineHorInt,num*minLineHorInt);   
-
-            if(num == tmin){
-                ctx3.stroke();
-                ctx3.closePath();
-                ctx3.fillStyle = "#ffffff";
-                ctx3.fill();
-            }
-        }          
-    }
+    //drawMinutes
+    ctx3.beginPath();
+    ctx3.fillStyle = "#ffffff";
+    var x = canvas3RealWidth-(1.2*hourLineHorInt);
+    var height = t_m * minLineHorInt;
+    ctx3.rect(x,0,hourLineHorInt, height);
+    ctx3.fill();
+    ctx3.closePath();
+    
             
-}
+    if (t_h >= (721)){
+        t_h = 0
+    }else {
+        t_h = t_h + s3; // sum the minute to the previous time
+    }
+    if (t_m >= (60)){
+        t_m = 0
+    }else {
+        t_m = t_m + s3; // sum the minute to the previous time
+    }
     
-       // convert t into a date
-    var thisTime3 = numberToTime2(t_hour, t_min);
+    // convert t into a date
+    var thisTime3 = numberToTime2(t_h, t_m);
     // time
     ctx3.beginPath();
-    ctx3.fillStyle = "#000000";
+    ctx3.fillStyle = "#ffffff";
     ctx3.font = "100 30px avenir";
     ctx3.textAlign = "center";
-    ctx3.fillText(thisTime3,canvas3RealWidth-3.1*(canvas3RealWidth/13),35);
+    ctx3.fillText(thisTime3,canvas3RealWidth-2.5*(canvas3RealWidth/13),35);
     ctx3.closePath();
 
-    if (t_hour >= (721)){
-        t_hour = 0
-    }else {
-        t_hour = t_hour + speed3; // sum the minute to the previous time
-    }
-    if (t_min >= (60)){
-        t_min = 0
-    }else {
-        t_min = t_min + speed3; // sum the minute to the previous time
-    }
+
+
     
     function numberToTime2 (hour, min) {
         var hours   = Math.floor(hour / 60);
-        var minutes = Math.floor(min - (hours * 60));
+//        var minutes = Math.floor(min - (hours * 60));
 
         if (hour   < 10) {hour   = "0"+hour;}
         if (min < 10) {min = "0"+min;}
-        return Math.max(1,Math.floor(t_hour/60))+':'+min;
+        return Math.max(1,Math.floor(t_h/60))+':'+min;
     }
+    
+
+}
+
+
     
     
 
