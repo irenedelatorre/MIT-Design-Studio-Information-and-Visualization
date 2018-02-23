@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Visualizing time - Project 1</title>
+    <title>Visualizing Time - Project 1</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet"/>
 </head>
@@ -12,18 +12,30 @@
         <h1 class="col-md-12">Visualizing Time</h1>
     </div>
     <div class="row">
+        <h2 class="col-md-12">Initial Sketches</h2>
+        <img src="assets/images/sketches_1.jpg"/>
+        <img src="assets/images/sketches_2.jpg"/>
+        <img src="assets/images/sketches_3.jpg"/>
+    </div>
+    <div class="row">
         <h2 class="col-md-12">Sketch 1</h2>
         <canvas id="plot1"></canvas>
+        <p>The inspiration for this time visualization was the concept of structural nesting. One of the properties I uncovered through my ideation was that there was natural nesting between the various time measurement units: within a day there are 24 hours, within an hour there are 60 minutes, and within a minute there are 60 seconds.</p>
+        <p>With this visualization I sought to represent this notion visually through the encapsulation of smaller spheres by larger spheres, representing the relationship smaller units share with their larger contemporaries.</p>
+        <p>If you analyze my still visualization above, you will see that within each purple circle, representing a single hour in a day, there are 60 smaller orange circles encapsulated, representing a single minute in an hour.</p>
     </div>
     <div class="row">
         <h2 class="col-md-12">Sketch 2</h2>
-        <div id="plot2">
-        </div>
-
+        <div id="plot2"></div>
+        <p>The inspiration for this time visualization was periodicity and distance. My goal for was to emphasize the cyclical nature of time, drawing attention to it's periodicity, which is best described through circles, a primitive shape with no beginning and no end, much like time.</p>
+        <p>The red arc represents the seconds, the orange arc represents minutes, and the yellow arc represents hours. Due to the continuous/analog nature of the arcs, I added a digital clock in the center of the arcs to not only aid in the funtional process of determining time, but to also serve as a functional juxtaposition to the aesthetic-oriented arcs.</p>
     </div>
     <div class="row">
         <h2 class="col-md-12">Sketch 3</h2>
         <div id="plot3"></div>
+        <p>The inspiration for this time visualization was the concept of space and growth. My goals for this visualization was to communication the passage of time by exploiting two-dimensional space as a measure of the amount of elapsed time in a day.</p>
+        <p>I decided to have some fun by grounding the visualization in a metaphor of building a structure through time. Each light green block represents a minute. It takes 60 seconds for a block to fall from the sky and rest on the surface of the structure build over the course of the day. At each hour interval, a larger dark green slab covers the 60 minute blocks that have fallen to rest, representing the end of an hour.</p>
+        <p>At the end of the day, the tower resulting from the elapsed time is erased, marking the end of one day and the beginning of a new one.</p>
     </div>
 </div>
 
