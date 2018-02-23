@@ -13,6 +13,9 @@
 - Sketch individually.
 - Create twenty sketches on paper, then select 3 to pursue. 
 - Add an image of your sketches to the index.html and include a brief explanation of your design.
+- Create a GitHub Page site that will be the online version of your website. All your files will be accessible through the following link **yourUsername.github.io/MIT-Design-Studio-Information-and-Visualization/** . For example, the link to your project should be **yourUsername.github.io/MIT-Design-Studio-Information-and-Visualization/Project_1/index.html** 
+To do so go to your repository in GitHub.com, settings, scroll to GitHub Pages and in the option source select **master branch**. Everything that you update in your master branch will be updated in the online site. If you wish to have a different branch just for your online version, create a new branch called **gh-pages**.
+- Once you've finished, send us an email with a link to the online page
 
 ## Requirements
 
