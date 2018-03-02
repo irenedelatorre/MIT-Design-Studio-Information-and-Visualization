@@ -19,13 +19,18 @@ var plot1 = d3.select('#plot1') // if we select a html id #name, if we select a 
 
 // 1 map (get an array) all the years in the original array
 var mapYears = data.map(function(d){return d.year});
+
 // domain are our original values, range or rangeRound the extremes in pixels of where we want to put them
 // both domain and range need to have an array between the brackets
 var scaleXPlot1 = d3.scaleBand().domain(mapYears).rangeRound([0, width1]).padding(0.5);
 
 // 2 get the minimum and maximum values
 var maxFruit = d3.max(data,function(d){return d.fruit});
+//toprint shit
+console.log(2005, scaleX(2005));
+
 // var minFruit = d3.min(data,function(d){return d.fruit});
+//height to 0 or else the bar chart will grow in the wrong direction
 var scaleYPlot1 = d3.scaleLinear().domain([0,maxFruit]).rangeRound([height1, 0]);
 
 //create groups to put the content inside them
@@ -33,6 +38,7 @@ plot1.append('g').attr('transform', 'translate(' + margin1.l + ',' + margin1.t +
 plot1.append('g').attr('transform', 'translate(' + margin1.l + ',' + (margin1.t+height1) + ')').attr('class', 'axis axis-x');
 plot1.append('g').attr('transform', 'translate(' + margin1.l + ',' + margin1.t + ')').attr('class', 'bars');
 
+//var plotBarChart = plot1.append("g").attr("transform", "translate("+margin1.l+","+margin1.t+")").attr("class", "barchart");
 
 //AXIS
 var axisBarChartX = d3.axisBottom().scale(scaleXPlot1).ticks(),
