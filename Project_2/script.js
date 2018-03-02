@@ -1,7 +1,7 @@
 //plots
 
 
-// var url = 'https://api.darksky.net/forecast/c6b293fcd2092b65cfb7313424b2f7ff/42.361145,-71.057083'
+// var url = 'https://darksky.net/forecast/42.3638,-71.1034/us12/en'
 
 d3.json("data/boston_weather.json",draw);
 
