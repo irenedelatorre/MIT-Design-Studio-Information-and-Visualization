@@ -25,6 +25,8 @@ document.getElementById("year").innerHTML = birthYear;
 
 
 
+
+
 // select #difference and write how many days are left until your next birthday
 // round the number to remove the decimals
 var birthdayThisYear = new Date ((myBirthday.getMonth()+1) + "/" + myBirthday.getDate() + "/" + currentDate.getFullYear());

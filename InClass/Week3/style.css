@@ -24,3 +24,9 @@ h2{
     stroke: black;
     shape-rendering: crispEdges;
 }
+
+
+.barChart{
+    stroke: "red";
+    stroke-width: 1px
+}

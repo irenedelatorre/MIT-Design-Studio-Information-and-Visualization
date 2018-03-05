@@ -37,6 +37,8 @@ function draw(error,data){
         return new Date (d.time * 1000)
     });
 
+    console.log(extentTimeWeather);
+
     // data is until wednesday. We only want 24 hours --> filter data
     var todayNow = new Date ().getTime()/1000;
     var tomorrow = new Date ().getTime()/1000 + 24 * 3600;
@@ -71,7 +73,7 @@ function draw(error,data){
 
 
     // 1.5 create AXIS
-   var formatHours = d3.timeFormat("%H:00");
+   var formatHours = d3.timeFormat("%H:%M");
    var formatDate = d3.timeFormat("%A");
 
     var axisHourX = d3.axisBottom().scale(scaleX1).ticks().tickFormat(formatHours),
@@ -194,7 +196,7 @@ function draw(error,data){
 
     var axisWeekX = d3.axisBottom().scale(scaleX2).ticks(8).tickFormat(formatWeek),
         axisWeekY = d3.axisLeft().scale(scaleY2).tickSizeInner(-width1).tickPadding([10]).ticks(5);
-    
+
     plot2.select(".axis-x").call(axisWeekX);
     plot2.select(".axis-y").call(axisWeekY);
 
