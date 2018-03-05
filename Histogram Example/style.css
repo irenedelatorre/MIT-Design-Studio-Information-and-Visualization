@@ -1,0 +1,13 @@
+body {
+  font: 11px sans-serif;
+}
+
+.bar rect { 
+  fill: #ff06ec;
+} #color of the bars is defined here
+
+.bar text {
+  fill: #fff;
+  font: 11px sans-serif;
+} #text of the bars is defined here
+
