@@ -1,4 +1,4 @@
-# PROJECT 2 - Weather App
+# PROJECT 3 - Census Visualization
 
 **Using data from the US Census, design a 2D visualization that explains the information. Pay special attention to the way you construct the story around it.**
 
