@@ -1,0 +1,13 @@
+body {
+    padding: 50px;
+    font-family: "HelveticaNeueLT Std","Helvetica LT Std Light", "Helvetica", "Arial", "sans-serif";
+}
+
+h2{
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+#plot1, #plot2{
+    height:600px;
+}
