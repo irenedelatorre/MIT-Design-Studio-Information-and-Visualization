@@ -53,7 +53,7 @@ function dataloaded (err,data,map){
             var mapID = +d.id;
             var color = "#000";
             var totalPopulation = populationPerState.get(mapID).estimate2017;
-            
+
             data.forEach(function(e){
                 if (e.id === mapID){
                     color = colorScale(e.total/totalPopulation)
