@@ -1,0 +1,94 @@
+body {
+    padding: 50px;
+    font-family: "HelveticaNeueLT Std","Helvetica LT Std Light", "Helvetica", "Arial", "sans-serif";
+}
+
+h2{
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+#plot1, #plot2{
+    height:300px;
+    margin-bottom:50px;
+}
+
+.btn-default {
+    background-color: #eaeaea;
+    font-size: 10pt;
+    margin-bottom: 40px;
+}
+
+.blue{
+    color: #66b2c5;
+}
+
+.red{
+    color: #c63232
+}
+
+.green{
+    color: #72a746;
+}
+
+.yellow{
+    color: #ffb400
+}
+
+
+.legend p{
+    color: black
+}
+
+.legend{
+    float:left;
+    margin-left:20px;
+}
+
+.tooltipBar{
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+    width: auto;
+    margin: 0px;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+#numberBar{
+    margin: 0px;
+    color:white;
+    font-weight: 500;
+}
+
+
+.axis-y .tick line  {
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+    stroke: #e8eced;
+}
+
+
+.axis-x .tick line, .axis-x .tick path {
+    stroke-width: 1px;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis-y path {
+    display: none;
+}
+
+.list-title{
+    font-size: 10pt;
+}
+
+.lists{
+    margin-bottom: 30px;
+    margin-top: -26px;
+
+}
+
+.form-control {
+    font-size: 10pt;
+}
