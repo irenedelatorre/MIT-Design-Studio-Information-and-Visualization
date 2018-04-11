@@ -33,8 +33,8 @@ var formatNumber = d3.format(",");
 
 // queue data files, parse them and use them
 var queue = d3.queue()
-    .defer(d3.csv, "../data/Households_by_total_money_income.csv", parseData)
-    .defer(d3.csv, "../data/Households_by_total_money_income_by_race_age.csv", parseIncome)
+    .defer(d3.csv, "data/Households_by_total_money_income.csv", parseData)
+    .defer(d3.csv, "data/Households_by_total_money_income_by_race_age.csv", parseIncome)
     .await(dataloaded);
 
 function dataloaded (err,data,dataAge){
