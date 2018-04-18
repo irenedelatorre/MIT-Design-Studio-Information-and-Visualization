@@ -1,0 +1,410 @@
+GEO.id,Id
+GEO.display-label,${dim.label}
+BOXHEAD#HC01_ESTIMATE#EST_SUBJECT#VC01,Total; Estimate; Population 3 years and over enrolled in school
+BOXHEAD#HC01_ESTIMATE#MOE_SUBJECT#VC01,Total; Margin of Error; Population 3 years and over enrolled in school
+BOXHEAD#HC02_ESTIMATE#EST_SUBJECT#VC01,Percent; Estimate; Population 3 years and over enrolled in school
+BOXHEAD#HC02_ESTIMATE#MOE_SUBJECT#VC01,Percent; Margin of Error; Population 3 years and over enrolled in school
+BOXHEAD#HC03_ESTIMATE#EST_SUBJECT#VC01,In public school; Estimate; Population 3 years and over enrolled in school
+BOXHEAD#HC03_ESTIMATE#MOE_SUBJECT#VC01,In public school; Margin of Error; Population 3 years and over enrolled in school
+BOXHEAD#HC04_ESTIMATE#EST_SUBJECT#VC01,Percent in public school; Estimate; Population 3 years and over enrolled in school
+BOXHEAD#HC04_ESTIMATE#MOE_SUBJECT#VC01,Percent in public school; Margin of Error; Population 3 years and over enrolled in school
+BOXHEAD#HC05_ESTIMATE#EST_SUBJECT#VC01,In private school; Estimate; Population 3 years and over enrolled in school
+BOXHEAD#HC05_ESTIMATE#MOE_SUBJECT#VC01,In private school; Margin of Error; Population 3 years and over enrolled in school
+BOXHEAD#HC06_ESTIMATE#EST_SUBJECT#VC01,Percent in private school; Estimate; Population 3 years and over enrolled in school
+BOXHEAD#HC06_ESTIMATE#MOE_SUBJECT#VC01,Percent in private school; Margin of Error; Population 3 years and over enrolled in school
+BOXHEAD#HC01_ESTIMATE#EST_SUBJECT#VC02,"Total; Estimate; Nursery school, preschool"
+BOXHEAD#HC01_ESTIMATE#MOE_SUBJECT#VC02,"Total; Margin of Error; Nursery school, preschool"
+BOXHEAD#HC02_ESTIMATE#EST_SUBJECT#VC02,"Percent; Estimate; Nursery school, preschool"
+BOXHEAD#HC02_ESTIMATE#MOE_SUBJECT#VC02,"Percent; Margin of Error; Nursery school, preschool"
+BOXHEAD#HC03_ESTIMATE#EST_SUBJECT#VC02,"In public school; Estimate; Nursery school, preschool"
+BOXHEAD#HC03_ESTIMATE#MOE_SUBJECT#VC02,"In public school; Margin of Error; Nursery school, preschool"
+BOXHEAD#HC04_ESTIMATE#EST_SUBJECT#VC02,"Percent in public school; Estimate; Nursery school, preschool"
+BOXHEAD#HC04_ESTIMATE#MOE_SUBJECT#VC02,"Percent in public school; Margin of Error; Nursery school, preschool"
+BOXHEAD#HC05_ESTIMATE#EST_SUBJECT#VC02,"In private school; Estimate; Nursery school, preschool"
+BOXHEAD#HC05_ESTIMATE#MOE_SUBJECT#VC02,"In private school; Margin of Error; Nursery school, preschool"
+BOXHEAD#HC06_ESTIMATE#EST_SUBJECT#VC02,"Percent in private school; Estimate; Nursery school, preschool"
+BOXHEAD#HC06_ESTIMATE#MOE_SUBJECT#VC02,"Percent in private school; Margin of Error; Nursery school, preschool"
+BOXHEAD#HC01_ESTIMATE#EST_SUBJECT#VC03,Total; Estimate; Kindergarten to 12th grade
+BOXHEAD#HC01_ESTIMATE#MOE_SUBJECT#VC03,Total; Margin of Error; Kindergarten to 12th grade
+BOXHEAD#HC02_ESTIMATE#EST_SUBJECT#VC03,Percent; Estimate; Kindergarten to 12th grade
+BOXHEAD#HC02_ESTIMATE#MOE_SUBJECT#VC03,Percent; Margin of Error; Kindergarten to 12th grade
+BOXHEAD#HC03_ESTIMATE#EST_SUBJECT#VC03,In public school; Estimate; Kindergarten to 12th grade
+BOXHEAD#HC03_ESTIMATE#MOE_SUBJECT#VC03,In public school; Margin of Error; Kindergarten to 12th grade
+BOXHEAD#HC04_ESTIMATE#EST_SUBJECT#VC03,Percent in public school; Estimate; Kindergarten to 12th grade
+BOXHEAD#HC04_ESTIMATE#MOE_SUBJECT#VC03,Percent in public school; Margin of Error; Kindergarten to 12th grade
+BOXHEAD#HC05_ESTIMATE#EST_SUBJECT#VC03,In private school; Estimate; Kindergarten to 12th grade
+BOXHEAD#HC05_ESTIMATE#MOE_SUBJECT#VC03,In private school; Margin of Error; Kindergarten to 12th grade
+BOXHEAD#HC06_ESTIMATE#EST_SUBJECT#VC03,Percent in private school; Estimate; Kindergarten to 12th grade
+BOXHEAD#HC06_ESTIMATE#MOE_SUBJECT#VC03,Percent in private school; Margin of Error; Kindergarten to 12th grade
+BOXHEAD#HC01_ESTIMATE#EST_SUBJECT#VC04,Total; Estimate; Kindergarten
+BOXHEAD#HC01_ESTIMATE#MOE_SUBJECT#VC04,Total; Margin of Error; Kindergarten
+BOXHEAD#HC02_ESTIMATE#EST_SUBJECT#VC04,Percent; Estimate; Kindergarten
+BOXHEAD#HC02_ESTIMATE#MOE_SUBJECT#VC04,Percent; Margin of Error; Kindergarten
+BOXHEAD#HC03_ESTIMATE#EST_SUBJECT#VC04,In public school; Estimate; Kindergarten
+BOXHEAD#HC03_ESTIMATE#MOE_SUBJECT#VC04,In public school; Margin of Error; Kindergarten
+BOXHEAD#HC04_ESTIMATE#EST_SUBJECT#VC04,Percent in public school; Estimate; Kindergarten
+BOXHEAD#HC04_ESTIMATE#MOE_SUBJECT#VC04,Percent in public school; Margin of Error; Kindergarten
+BOXHEAD#HC05_ESTIMATE#EST_SUBJECT#VC04,In private school; Estimate; Kindergarten
+BOXHEAD#HC05_ESTIMATE#MOE_SUBJECT#VC04,In private school; Margin of Error; Kindergarten
+BOXHEAD#HC06_ESTIMATE#EST_SUBJECT#VC04,Percent in private school; Estimate; Kindergarten
+BOXHEAD#HC06_ESTIMATE#MOE_SUBJECT#VC04,Percent in private school; Margin of Error; Kindergarten
+BOXHEAD#HC01_ESTIMATE#EST_SUBJECT#VC05,Total; Estimate; Elementary: grade 1 to grade 4
+BOXHEAD#HC01_ESTIMATE#MOE_SUBJECT#VC05,Total; Margin of Error; Elementary: grade 1 to grade 4
+BOXHEAD#HC02_ESTIMATE#EST_SUBJECT#VC05,Percent; Estimate; Elementary: grade 1 to grade 4
+BOXHEAD#HC02_ESTIMATE#MOE_SUBJECT#VC05,Percent; Margin of Error; Elementary: grade 1 to grade 4
+BOXHEAD#HC03_ESTIMATE#EST_SUBJECT#VC05,In public school; Estimate; Elementary: grade 1 to grade 4
+BOXHEAD#HC03_ESTIMATE#MOE_SUBJECT#VC05,In public school; Margin of Error; Elementary: grade 1 to grade 4
+BOXHEAD#HC04_ESTIMATE#EST_SUBJECT#VC05,Percent in public school; Estimate; Elementary: grade 1 to grade 4
+BOXHEAD#HC04_ESTIMATE#MOE_SUBJECT#VC05,Percent in public school; Margin of Error; Elementary: grade 1 to grade 4
+BOXHEAD#HC05_ESTIMATE#EST_SUBJECT#VC05,In private school; Estimate; Elementary: grade 1 to grade 4
+BOXHEAD#HC05_ESTIMATE#MOE_SUBJECT#VC05,In private school; Margin of Error; Elementary: grade 1 to grade 4
+BOXHEAD#HC06_ESTIMATE#EST_SUBJECT#VC05,Percent in private school; Estimate; Elementary: grade 1 to grade 4
+BOXHEAD#HC06_ESTIMATE#MOE_SUBJECT#VC05,Percent in private school; Margin of Error; Elementary: grade 1 to grade 4
+BOXHEAD#HC01_ESTIMATE#EST_SUBJECT#VC06,Total; Estimate; Elementary: grade 5 to grade 8
+BOXHEAD#HC01_ESTIMATE#MOE_SUBJECT#VC06,Total; Margin of Error; Elementary: grade 5 to grade 8
+BOXHEAD#HC02_ESTIMATE#EST_SUBJECT#VC06,Percent; Estimate; Elementary: grade 5 to grade 8
+BOXHEAD#HC02_ESTIMATE#MOE_SUBJECT#VC06,Percent; Margin of Error; Elementary: grade 5 to grade 8
+BOXHEAD#HC03_ESTIMATE#EST_SUBJECT#VC06,In public school; Estimate; Elementary: grade 5 to grade 8
+BOXHEAD#HC03_ESTIMATE#MOE_SUBJECT#VC06,In public school; Margin of Error; Elementary: grade 5 to grade 8
+BOXHEAD#HC04_ESTIMATE#EST_SUBJECT#VC06,Percent in public school; Estimate; Elementary: grade 5 to grade 8
+BOXHEAD#HC04_ESTIMATE#MOE_SUBJECT#VC06,Percent in public school; Margin of Error; Elementary: grade 5 to grade 8
+BOXHEAD#HC05_ESTIMATE#EST_SUBJECT#VC06,In private school; Estimate; Elementary: grade 5 to grade 8
+BOXHEAD#HC05_ESTIMATE#MOE_SUBJECT#VC06,In private school; Margin of Error; Elementary: grade 5 to grade 8
+BOXHEAD#HC06_ESTIMATE#EST_SUBJECT#VC06,Percent in private school; Estimate; Elementary: grade 5 to grade 8
+BOXHEAD#HC06_ESTIMATE#MOE_SUBJECT#VC06,Percent in private school; Margin of Error; Elementary: grade 5 to grade 8
+BOXHEAD#HC01_ESTIMATE#EST_SUBJECT#VC07,Total; Estimate; High school: grade 9 to grade 12
+BOXHEAD#HC01_ESTIMATE#MOE_SUBJECT#VC07,Total; Margin of Error; High school: grade 9 to grade 12
+BOXHEAD#HC02_ESTIMATE#EST_SUBJECT#VC07,Percent; Estimate; High school: grade 9 to grade 12
+BOXHEAD#HC02_ESTIMATE#MOE_SUBJECT#VC07,Percent; Margin of Error; High school: grade 9 to grade 12
+BOXHEAD#HC03_ESTIMATE#EST_SUBJECT#VC07,In public school; Estimate; High school: grade 9 to grade 12
+BOXHEAD#HC03_ESTIMATE#MOE_SUBJECT#VC07,In public school; Margin of Error; High school: grade 9 to grade 12
+BOXHEAD#HC04_ESTIMATE#EST_SUBJECT#VC07,Percent in public school; Estimate; High school: grade 9 to grade 12
+BOXHEAD#HC04_ESTIMATE#MOE_SUBJECT#VC07,Percent in public school; Margin of Error; High school: grade 9 to grade 12
+BOXHEAD#HC05_ESTIMATE#EST_SUBJECT#VC07,In private school; Estimate; High school: grade 9 to grade 12
+BOXHEAD#HC05_ESTIMATE#MOE_SUBJECT#VC07,In private school; Margin of Error; High school: grade 9 to grade 12
+BOXHEAD#HC06_ESTIMATE#EST_SUBJECT#VC07,Percent in private school; Estimate; High school: grade 9 to grade 12
+BOXHEAD#HC06_ESTIMATE#MOE_SUBJECT#VC07,Percent in private school; Margin of Error; High school: grade 9 to grade 12
+BOXHEAD#HC01_ESTIMATE#EST_SUBJECT#VC08,"Total; Estimate; College, undergraduate"
+BOXHEAD#HC01_ESTIMATE#MOE_SUBJECT#VC08,"Total; Margin of Error; College, undergraduate"
+BOXHEAD#HC02_ESTIMATE#EST_SUBJECT#VC08,"Percent; Estimate; College, undergraduate"
+BOXHEAD#HC02_ESTIMATE#MOE_SUBJECT#VC08,"Percent; Margin of Error; College, undergraduate"
+BOXHEAD#HC03_ESTIMATE#EST_SUBJECT#VC08,"In public school; Estimate; College, undergraduate"
+BOXHEAD#HC03_ESTIMATE#MOE_SUBJECT#VC08,"In public school; Margin of Error; College, undergraduate"
+BOXHEAD#HC04_ESTIMATE#EST_SUBJECT#VC08,"Percent in public school; Estimate; College, undergraduate"
+BOXHEAD#HC04_ESTIMATE#MOE_SUBJECT#VC08,"Percent in public school; Margin of Error; College, undergraduate"
+BOXHEAD#HC05_ESTIMATE#EST_SUBJECT#VC08,"In private school; Estimate; College, undergraduate"
+BOXHEAD#HC05_ESTIMATE#MOE_SUBJECT#VC08,"In private school; Margin of Error; College, undergraduate"
+BOXHEAD#HC06_ESTIMATE#EST_SUBJECT#VC08,"Percent in private school; Estimate; College, undergraduate"
+BOXHEAD#HC06_ESTIMATE#MOE_SUBJECT#VC08,"Percent in private school; Margin of Error; College, undergraduate"
+BOXHEAD#HC01_ESTIMATE#EST_SUBJECT#VC09,"Total; Estimate; Graduate, professional school"
+BOXHEAD#HC01_ESTIMATE#MOE_SUBJECT#VC09,"Total; Margin of Error; Graduate, professional school"
+BOXHEAD#HC02_ESTIMATE#EST_SUBJECT#VC09,"Percent; Estimate; Graduate, professional school"
+BOXHEAD#HC02_ESTIMATE#MOE_SUBJECT#VC09,"Percent; Margin of Error; Graduate, professional school"
+BOXHEAD#HC03_ESTIMATE#EST_SUBJECT#VC09,"In public school; Estimate; Graduate, professional school"
+BOXHEAD#HC03_ESTIMATE#MOE_SUBJECT#VC09,"In public school; Margin of Error; Graduate, professional school"
+BOXHEAD#HC04_ESTIMATE#EST_SUBJECT#VC09,"Percent in public school; Estimate; Graduate, professional school"
+BOXHEAD#HC04_ESTIMATE#MOE_SUBJECT#VC09,"Percent in public school; Margin of Error; Graduate, professional school"
+BOXHEAD#HC05_ESTIMATE#EST_SUBJECT#VC09,"In private school; Estimate; Graduate, professional school"
+BOXHEAD#HC05_ESTIMATE#MOE_SUBJECT#VC09,"In private school; Margin of Error; Graduate, professional school"
+BOXHEAD#HC06_ESTIMATE#EST_SUBJECT#VC09,"Percent in private school; Estimate; Graduate, professional school"
+BOXHEAD#HC06_ESTIMATE#MOE_SUBJECT#VC09,"Percent in private school; Margin of Error; Graduate, professional school"
+BOXHEAD#HC01_ESTIMATE#EST_SUBJECT#VC11,Total; Estimate; Population enrolled in college or graduate school
+BOXHEAD#HC01_ESTIMATE#MOE_SUBJECT#VC11,Total; Margin of Error; Population enrolled in college or graduate school
+BOXHEAD#HC02_ESTIMATE#EST_SUBJECT#VC11,Percent; Estimate; Population enrolled in college or graduate school
+BOXHEAD#HC02_ESTIMATE#MOE_SUBJECT#VC11,Percent; Margin of Error; Population enrolled in college or graduate school
+BOXHEAD#HC03_ESTIMATE#EST_SUBJECT#VC11,In public school; Estimate; Population enrolled in college or graduate school
+BOXHEAD#HC03_ESTIMATE#MOE_SUBJECT#VC11,In public school; Margin of Error; Population enrolled in college or graduate school
+BOXHEAD#HC04_ESTIMATE#EST_SUBJECT#VC11,Percent in public school; Estimate; Population enrolled in college or graduate school
+BOXHEAD#HC04_ESTIMATE#MOE_SUBJECT#VC11,Percent in public school; Margin of Error; Population enrolled in college or graduate school
+BOXHEAD#HC05_ESTIMATE#EST_SUBJECT#VC11,In private school; Estimate; Population enrolled in college or graduate school
+BOXHEAD#HC05_ESTIMATE#MOE_SUBJECT#VC11,In private school; Margin of Error; Population enrolled in college or graduate school
+BOXHEAD#HC06_ESTIMATE#EST_SUBJECT#VC11,Percent in private school; Estimate; Population enrolled in college or graduate school
+BOXHEAD#HC06_ESTIMATE#MOE_SUBJECT#VC11,Percent in private school; Margin of Error; Population enrolled in college or graduate school
+BOXHEAD#HC01_ESTIMATE#EST_SUBJECT#VC12,Total; Estimate; Population enrolled in college or graduate school - Males enrolled in college or graduate school
+BOXHEAD#HC01_ESTIMATE#MOE_SUBJECT#VC12,Total; Margin of Error; Population enrolled in college or graduate school - Males enrolled in college or graduate school
+BOXHEAD#HC02_ESTIMATE#EST_SUBJECT#VC12,Percent; Estimate; Population enrolled in college or graduate school - Males enrolled in college or graduate school
+BOXHEAD#HC02_ESTIMATE#MOE_SUBJECT#VC12,Percent; Margin of Error; Population enrolled in college or graduate school - Males enrolled in college or graduate school
+BOXHEAD#HC03_ESTIMATE#EST_SUBJECT#VC12,In public school; Estimate; Population enrolled in college or graduate school - Males enrolled in college or graduate school
+BOXHEAD#HC03_ESTIMATE#MOE_SUBJECT#VC12,In public school; Margin of Error; Population enrolled in college or graduate school - Males enrolled in college or graduate school
+BOXHEAD#HC04_ESTIMATE#EST_SUBJECT#VC12,Percent in public school; Estimate; Population enrolled in college or graduate school - Males enrolled in college or graduate school
+BOXHEAD#HC04_ESTIMATE#MOE_SUBJECT#VC12,Percent in public school; Margin of Error; Population enrolled in college or graduate school - Males enrolled in college or graduate school
+BOXHEAD#HC05_ESTIMATE#EST_SUBJECT#VC12,In private school; Estimate; Population enrolled in college or graduate school - Males enrolled in college or graduate school
+BOXHEAD#HC05_ESTIMATE#MOE_SUBJECT#VC12,In private school; Margin of Error; Population enrolled in college or graduate school - Males enrolled in college or graduate school
+BOXHEAD#HC06_ESTIMATE#EST_SUBJECT#VC12,Percent in private school; Estimate; Population enrolled in college or graduate school - Males enrolled in college or graduate school
+BOXHEAD#HC06_ESTIMATE#MOE_SUBJECT#VC12,Percent in private school; Margin of Error; Population enrolled in college or graduate school - Males enrolled in college or graduate school
+BOXHEAD#HC01_ESTIMATE#EST_SUBJECT#VC13,Total; Estimate; Population enrolled in college or graduate school - Females enrolled in college or graduate school
+BOXHEAD#HC01_ESTIMATE#MOE_SUBJECT#VC13,Total; Margin of Error; Population enrolled in college or graduate school - Females enrolled in college or graduate school
+BOXHEAD#HC02_ESTIMATE#EST_SUBJECT#VC13,Percent; Estimate; Population enrolled in college or graduate school - Females enrolled in college or graduate school
+BOXHEAD#HC02_ESTIMATE#MOE_SUBJECT#VC13,Percent; Margin of Error; Population enrolled in college or graduate school - Females enrolled in college or graduate school
+BOXHEAD#HC03_ESTIMATE#EST_SUBJECT#VC13,In public school; Estimate; Population enrolled in college or graduate school - Females enrolled in college or graduate school
+BOXHEAD#HC03_ESTIMATE#MOE_SUBJECT#VC13,In public school; Margin of Error; Population enrolled in college or graduate school - Females enrolled in college or graduate school
+BOXHEAD#HC04_ESTIMATE#EST_SUBJECT#VC13,Percent in public school; Estimate; Population enrolled in college or graduate school - Females enrolled in college or graduate school
+BOXHEAD#HC04_ESTIMATE#MOE_SUBJECT#VC13,Percent in public school; Margin of Error; Population enrolled in college or graduate school - Females enrolled in college or graduate school
+BOXHEAD#HC05_ESTIMATE#EST_SUBJECT#VC13,In private school; Estimate; Population enrolled in college or graduate school - Females enrolled in college or graduate school
+BOXHEAD#HC05_ESTIMATE#MOE_SUBJECT#VC13,In private school; Margin of Error; Population enrolled in college or graduate school - Females enrolled in college or graduate school
+BOXHEAD#HC06_ESTIMATE#EST_SUBJECT#VC13,Percent in private school; Estimate; Population enrolled in college or graduate school - Females enrolled in college or graduate school
+BOXHEAD#HC06_ESTIMATE#MOE_SUBJECT#VC13,Percent in private school; Margin of Error; Population enrolled in college or graduate school - Females enrolled in college or graduate school
+BOXHEAD#HC01_ESTIMATE#EST_SUBJECT#VC15,Total; Estimate; Population 3 to 4 years
+BOXHEAD#HC01_ESTIMATE#MOE_SUBJECT#VC15,Total; Margin of Error; Population 3 to 4 years
+BOXHEAD#HC02_ESTIMATE#EST_SUBJECT#VC15,Percent; Estimate; Population 3 to 4 years
+BOXHEAD#HC02_ESTIMATE#MOE_SUBJECT#VC15,Percent; Margin of Error; Population 3 to 4 years
+BOXHEAD#HC03_ESTIMATE#EST_SUBJECT#VC15,In public school; Estimate; Population 3 to 4 years
+BOXHEAD#HC03_ESTIMATE#MOE_SUBJECT#VC15,In public school; Margin of Error; Population 3 to 4 years
+BOXHEAD#HC04_ESTIMATE#EST_SUBJECT#VC15,Percent in public school; Estimate; Population 3 to 4 years
+BOXHEAD#HC04_ESTIMATE#MOE_SUBJECT#VC15,Percent in public school; Margin of Error; Population 3 to 4 years
+BOXHEAD#HC05_ESTIMATE#EST_SUBJECT#VC15,In private school; Estimate; Population 3 to 4 years
+BOXHEAD#HC05_ESTIMATE#MOE_SUBJECT#VC15,In private school; Margin of Error; Population 3 to 4 years
+BOXHEAD#HC06_ESTIMATE#EST_SUBJECT#VC15,Percent in private school; Estimate; Population 3 to 4 years
+BOXHEAD#HC06_ESTIMATE#MOE_SUBJECT#VC15,Percent in private school; Margin of Error; Population 3 to 4 years
+BOXHEAD#HC01_ESTIMATE#EST_SUBJECT#VC16,Total; Estimate; Population 3 to 4 years - 3 to 4 year olds enrolled in school
+BOXHEAD#HC01_ESTIMATE#MOE_SUBJECT#VC16,Total; Margin of Error; Population 3 to 4 years - 3 to 4 year olds enrolled in school
+BOXHEAD#HC02_ESTIMATE#EST_SUBJECT#VC16,Percent; Estimate; Population 3 to 4 years - 3 to 4 year olds enrolled in school
+BOXHEAD#HC02_ESTIMATE#MOE_SUBJECT#VC16,Percent; Margin of Error; Population 3 to 4 years - 3 to 4 year olds enrolled in school
+BOXHEAD#HC03_ESTIMATE#EST_SUBJECT#VC16,In public school; Estimate; Population 3 to 4 years - 3 to 4 year olds enrolled in school
+BOXHEAD#HC03_ESTIMATE#MOE_SUBJECT#VC16,In public school; Margin of Error; Population 3 to 4 years - 3 to 4 year olds enrolled in school
+BOXHEAD#HC04_ESTIMATE#EST_SUBJECT#VC16,Percent in public school; Estimate; Population 3 to 4 years - 3 to 4 year olds enrolled in school
+BOXHEAD#HC04_ESTIMATE#MOE_SUBJECT#VC16,Percent in public school; Margin of Error; Population 3 to 4 years - 3 to 4 year olds enrolled in school
+BOXHEAD#HC05_ESTIMATE#EST_SUBJECT#VC16,In private school; Estimate; Population 3 to 4 years - 3 to 4 year olds enrolled in school
+BOXHEAD#HC05_ESTIMATE#MOE_SUBJECT#VC16,In private school; Margin of Error; Population 3 to 4 years - 3 to 4 year olds enrolled in school
+BOXHEAD#HC06_ESTIMATE#EST_SUBJECT#VC16,Percent in private school; Estimate; Population 3 to 4 years - 3 to 4 year olds enrolled in school
+BOXHEAD#HC06_ESTIMATE#MOE_SUBJECT#VC16,Percent in private school; Margin of Error; Population 3 to 4 years - 3 to 4 year olds enrolled in school
+BOXHEAD#HC01_ESTIMATE#EST_SUBJECT#VC18,Total; Estimate; Population 5 to 9 years
+BOXHEAD#HC01_ESTIMATE#MOE_SUBJECT#VC18,Total; Margin of Error; Population 5 to 9 years
+BOXHEAD#HC02_ESTIMATE#EST_SUBJECT#VC18,Percent; Estimate; Population 5 to 9 years
+BOXHEAD#HC02_ESTIMATE#MOE_SUBJECT#VC18,Percent; Margin of Error; Population 5 to 9 years
+BOXHEAD#HC03_ESTIMATE#EST_SUBJECT#VC18,In public school; Estimate; Population 5 to 9 years
+BOXHEAD#HC03_ESTIMATE#MOE_SUBJECT#VC18,In public school; Margin of Error; Population 5 to 9 years
+BOXHEAD#HC04_ESTIMATE#EST_SUBJECT#VC18,Percent in public school; Estimate; Population 5 to 9 years
+BOXHEAD#HC04_ESTIMATE#MOE_SUBJECT#VC18,Percent in public school; Margin of Error; Population 5 to 9 years
+BOXHEAD#HC05_ESTIMATE#EST_SUBJECT#VC18,In private school; Estimate; Population 5 to 9 years
+BOXHEAD#HC05_ESTIMATE#MOE_SUBJECT#VC18,In private school; Margin of Error; Population 5 to 9 years
+BOXHEAD#HC06_ESTIMATE#EST_SUBJECT#VC18,Percent in private school; Estimate; Population 5 to 9 years
+BOXHEAD#HC06_ESTIMATE#MOE_SUBJECT#VC18,Percent in private school; Margin of Error; Population 5 to 9 years
+BOXHEAD#HC01_ESTIMATE#EST_SUBJECT#VC19,Total; Estimate; Population 5 to 9 years - 5 to 9 year olds enrolled in school
+BOXHEAD#HC01_ESTIMATE#MOE_SUBJECT#VC19,Total; Margin of Error; Population 5 to 9 years - 5 to 9 year olds enrolled in school
+BOXHEAD#HC02_ESTIMATE#EST_SUBJECT#VC19,Percent; Estimate; Population 5 to 9 years - 5 to 9 year olds enrolled in school
+BOXHEAD#HC02_ESTIMATE#MOE_SUBJECT#VC19,Percent; Margin of Error; Population 5 to 9 years - 5 to 9 year olds enrolled in school
+BOXHEAD#HC03_ESTIMATE#EST_SUBJECT#VC19,In public school; Estimate; Population 5 to 9 years - 5 to 9 year olds enrolled in school
+BOXHEAD#HC03_ESTIMATE#MOE_SUBJECT#VC19,In public school; Margin of Error; Population 5 to 9 years - 5 to 9 year olds enrolled in school
+BOXHEAD#HC04_ESTIMATE#EST_SUBJECT#VC19,Percent in public school; Estimate; Population 5 to 9 years - 5 to 9 year olds enrolled in school
+BOXHEAD#HC04_ESTIMATE#MOE_SUBJECT#VC19,Percent in public school; Margin of Error; Population 5 to 9 years - 5 to 9 year olds enrolled in school
+BOXHEAD#HC05_ESTIMATE#EST_SUBJECT#VC19,In private school; Estimate; Population 5 to 9 years - 5 to 9 year olds enrolled in school
+BOXHEAD#HC05_ESTIMATE#MOE_SUBJECT#VC19,In private school; Margin of Error; Population 5 to 9 years - 5 to 9 year olds enrolled in school
+BOXHEAD#HC06_ESTIMATE#EST_SUBJECT#VC19,Percent in private school; Estimate; Population 5 to 9 years - 5 to 9 year olds enrolled in school
+BOXHEAD#HC06_ESTIMATE#MOE_SUBJECT#VC19,Percent in private school; Margin of Error; Population 5 to 9 years - 5 to 9 year olds enrolled in school
+BOXHEAD#HC01_ESTIMATE#EST_SUBJECT#VC21,Total; Estimate; Population 10 to 14 years
+BOXHEAD#HC01_ESTIMATE#MOE_SUBJECT#VC21,Total; Margin of Error; Population 10 to 14 years
+BOXHEAD#HC02_ESTIMATE#EST_SUBJECT#VC21,Percent; Estimate; Population 10 to 14 years
+BOXHEAD#HC02_ESTIMATE#MOE_SUBJECT#VC21,Percent; Margin of Error; Population 10 to 14 years
+BOXHEAD#HC03_ESTIMATE#EST_SUBJECT#VC21,In public school; Estimate; Population 10 to 14 years
+BOXHEAD#HC03_ESTIMATE#MOE_SUBJECT#VC21,In public school; Margin of Error; Population 10 to 14 years
+BOXHEAD#HC04_ESTIMATE#EST_SUBJECT#VC21,Percent in public school; Estimate; Population 10 to 14 years
+BOXHEAD#HC04_ESTIMATE#MOE_SUBJECT#VC21,Percent in public school; Margin of Error; Population 10 to 14 years
+BOXHEAD#HC05_ESTIMATE#EST_SUBJECT#VC21,In private school; Estimate; Population 10 to 14 years
+BOXHEAD#HC05_ESTIMATE#MOE_SUBJECT#VC21,In private school; Margin of Error; Population 10 to 14 years
+BOXHEAD#HC06_ESTIMATE#EST_SUBJECT#VC21,Percent in private school; Estimate; Population 10 to 14 years
+BOXHEAD#HC06_ESTIMATE#MOE_SUBJECT#VC21,Percent in private school; Margin of Error; Population 10 to 14 years
+BOXHEAD#HC01_ESTIMATE#EST_SUBJECT#VC22,Total; Estimate; Population 10 to 14 years - 10 to 14 year olds enrolled in school
+BOXHEAD#HC01_ESTIMATE#MOE_SUBJECT#VC22,Total; Margin of Error; Population 10 to 14 years - 10 to 14 year olds enrolled in school
+BOXHEAD#HC02_ESTIMATE#EST_SUBJECT#VC22,Percent; Estimate; Population 10 to 14 years - 10 to 14 year olds enrolled in school
+BOXHEAD#HC02_ESTIMATE#MOE_SUBJECT#VC22,Percent; Margin of Error; Population 10 to 14 years - 10 to 14 year olds enrolled in school
+BOXHEAD#HC03_ESTIMATE#EST_SUBJECT#VC22,In public school; Estimate; Population 10 to 14 years - 10 to 14 year olds enrolled in school
+BOXHEAD#HC03_ESTIMATE#MOE_SUBJECT#VC22,In public school; Margin of Error; Population 10 to 14 years - 10 to 14 year olds enrolled in school
+BOXHEAD#HC04_ESTIMATE#EST_SUBJECT#VC22,Percent in public school; Estimate; Population 10 to 14 years - 10 to 14 year olds enrolled in school
+BOXHEAD#HC04_ESTIMATE#MOE_SUBJECT#VC22,Percent in public school; Margin of Error; Population 10 to 14 years - 10 to 14 year olds enrolled in school
+BOXHEAD#HC05_ESTIMATE#EST_SUBJECT#VC22,In private school; Estimate; Population 10 to 14 years - 10 to 14 year olds enrolled in school
+BOXHEAD#HC05_ESTIMATE#MOE_SUBJECT#VC22,In private school; Margin of Error; Population 10 to 14 years - 10 to 14 year olds enrolled in school
+BOXHEAD#HC06_ESTIMATE#EST_SUBJECT#VC22,Percent in private school; Estimate; Population 10 to 14 years - 10 to 14 year olds enrolled in school
+BOXHEAD#HC06_ESTIMATE#MOE_SUBJECT#VC22,Percent in private school; Margin of Error; Population 10 to 14 years - 10 to 14 year olds enrolled in school
+BOXHEAD#HC01_ESTIMATE#EST_SUBJECT#VC24,Total; Estimate; Population 15 to 17
+BOXHEAD#HC01_ESTIMATE#MOE_SUBJECT#VC24,Total; Margin of Error; Population 15 to 17
+BOXHEAD#HC02_ESTIMATE#EST_SUBJECT#VC24,Percent; Estimate; Population 15 to 17
+BOXHEAD#HC02_ESTIMATE#MOE_SUBJECT#VC24,Percent; Margin of Error; Population 15 to 17
+BOXHEAD#HC03_ESTIMATE#EST_SUBJECT#VC24,In public school; Estimate; Population 15 to 17
+BOXHEAD#HC03_ESTIMATE#MOE_SUBJECT#VC24,In public school; Margin of Error; Population 15 to 17
+BOXHEAD#HC04_ESTIMATE#EST_SUBJECT#VC24,Percent in public school; Estimate; Population 15 to 17
+BOXHEAD#HC04_ESTIMATE#MOE_SUBJECT#VC24,Percent in public school; Margin of Error; Population 15 to 17
+BOXHEAD#HC05_ESTIMATE#EST_SUBJECT#VC24,In private school; Estimate; Population 15 to 17
+BOXHEAD#HC05_ESTIMATE#MOE_SUBJECT#VC24,In private school; Margin of Error; Population 15 to 17
+BOXHEAD#HC06_ESTIMATE#EST_SUBJECT#VC24,Percent in private school; Estimate; Population 15 to 17
+BOXHEAD#HC06_ESTIMATE#MOE_SUBJECT#VC24,Percent in private school; Margin of Error; Population 15 to 17
+BOXHEAD#HC01_ESTIMATE#EST_SUBJECT#VC25,Total; Estimate; Population 15 to 17 - 15 to 17 year olds enrolled in school
+BOXHEAD#HC01_ESTIMATE#MOE_SUBJECT#VC25,Total; Margin of Error; Population 15 to 17 - 15 to 17 year olds enrolled in school
+BOXHEAD#HC02_ESTIMATE#EST_SUBJECT#VC25,Percent; Estimate; Population 15 to 17 - 15 to 17 year olds enrolled in school
+BOXHEAD#HC02_ESTIMATE#MOE_SUBJECT#VC25,Percent; Margin of Error; Population 15 to 17 - 15 to 17 year olds enrolled in school
+BOXHEAD#HC03_ESTIMATE#EST_SUBJECT#VC25,In public school; Estimate; Population 15 to 17 - 15 to 17 year olds enrolled in school
+BOXHEAD#HC03_ESTIMATE#MOE_SUBJECT#VC25,In public school; Margin of Error; Population 15 to 17 - 15 to 17 year olds enrolled in school
+BOXHEAD#HC04_ESTIMATE#EST_SUBJECT#VC25,Percent in public school; Estimate; Population 15 to 17 - 15 to 17 year olds enrolled in school
+BOXHEAD#HC04_ESTIMATE#MOE_SUBJECT#VC25,Percent in public school; Margin of Error; Population 15 to 17 - 15 to 17 year olds enrolled in school
+BOXHEAD#HC05_ESTIMATE#EST_SUBJECT#VC25,In private school; Estimate; Population 15 to 17 - 15 to 17 year olds enrolled in school
+BOXHEAD#HC05_ESTIMATE#MOE_SUBJECT#VC25,In private school; Margin of Error; Population 15 to 17 - 15 to 17 year olds enrolled in school
+BOXHEAD#HC06_ESTIMATE#EST_SUBJECT#VC25,Percent in private school; Estimate; Population 15 to 17 - 15 to 17 year olds enrolled in school
+BOXHEAD#HC06_ESTIMATE#MOE_SUBJECT#VC25,Percent in private school; Margin of Error; Population 15 to 17 - 15 to 17 year olds enrolled in school
+BOXHEAD#HC01_ESTIMATE#EST_SUBJECT#VC27,Total; Estimate; Population 18 to 19 years
+BOXHEAD#HC01_ESTIMATE#MOE_SUBJECT#VC27,Total; Margin of Error; Population 18 to 19 years
+BOXHEAD#HC02_ESTIMATE#EST_SUBJECT#VC27,Percent; Estimate; Population 18 to 19 years
+BOXHEAD#HC02_ESTIMATE#MOE_SUBJECT#VC27,Percent; Margin of Error; Population 18 to 19 years
+BOXHEAD#HC03_ESTIMATE#EST_SUBJECT#VC27,In public school; Estimate; Population 18 to 19 years
+BOXHEAD#HC03_ESTIMATE#MOE_SUBJECT#VC27,In public school; Margin of Error; Population 18 to 19 years
+BOXHEAD#HC04_ESTIMATE#EST_SUBJECT#VC27,Percent in public school; Estimate; Population 18 to 19 years
+BOXHEAD#HC04_ESTIMATE#MOE_SUBJECT#VC27,Percent in public school; Margin of Error; Population 18 to 19 years
+BOXHEAD#HC05_ESTIMATE#EST_SUBJECT#VC27,In private school; Estimate; Population 18 to 19 years
+BOXHEAD#HC05_ESTIMATE#MOE_SUBJECT#VC27,In private school; Margin of Error; Population 18 to 19 years
+BOXHEAD#HC06_ESTIMATE#EST_SUBJECT#VC27,Percent in private school; Estimate; Population 18 to 19 years
+BOXHEAD#HC06_ESTIMATE#MOE_SUBJECT#VC27,Percent in private school; Margin of Error; Population 18 to 19 years
+BOXHEAD#HC01_ESTIMATE#EST_SUBJECT#VC28,Total; Estimate; Population 18 to 19 years - 18 and 19 year olds enrolled in school
+BOXHEAD#HC01_ESTIMATE#MOE_SUBJECT#VC28,Total; Margin of Error; Population 18 to 19 years - 18 and 19 year olds enrolled in school
+BOXHEAD#HC02_ESTIMATE#EST_SUBJECT#VC28,Percent; Estimate; Population 18 to 19 years - 18 and 19 year olds enrolled in school
+BOXHEAD#HC02_ESTIMATE#MOE_SUBJECT#VC28,Percent; Margin of Error; Population 18 to 19 years - 18 and 19 year olds enrolled in school
+BOXHEAD#HC03_ESTIMATE#EST_SUBJECT#VC28,In public school; Estimate; Population 18 to 19 years - 18 and 19 year olds enrolled in school
+BOXHEAD#HC03_ESTIMATE#MOE_SUBJECT#VC28,In public school; Margin of Error; Population 18 to 19 years - 18 and 19 year olds enrolled in school
+BOXHEAD#HC04_ESTIMATE#EST_SUBJECT#VC28,Percent in public school; Estimate; Population 18 to 19 years - 18 and 19 year olds enrolled in school
+BOXHEAD#HC04_ESTIMATE#MOE_SUBJECT#VC28,Percent in public school; Margin of Error; Population 18 to 19 years - 18 and 19 year olds enrolled in school
+BOXHEAD#HC05_ESTIMATE#EST_SUBJECT#VC28,In private school; Estimate; Population 18 to 19 years - 18 and 19 year olds enrolled in school
+BOXHEAD#HC05_ESTIMATE#MOE_SUBJECT#VC28,In private school; Margin of Error; Population 18 to 19 years - 18 and 19 year olds enrolled in school
+BOXHEAD#HC06_ESTIMATE#EST_SUBJECT#VC28,Percent in private school; Estimate; Population 18 to 19 years - 18 and 19 year olds enrolled in school
+BOXHEAD#HC06_ESTIMATE#MOE_SUBJECT#VC28,Percent in private school; Margin of Error; Population 18 to 19 years - 18 and 19 year olds enrolled in school
+BOXHEAD#HC01_ESTIMATE#EST_SUBJECT#VC30,Total; Estimate; Population 20 to 24 years
+BOXHEAD#HC01_ESTIMATE#MOE_SUBJECT#VC30,Total; Margin of Error; Population 20 to 24 years
+BOXHEAD#HC02_ESTIMATE#EST_SUBJECT#VC30,Percent; Estimate; Population 20 to 24 years
+BOXHEAD#HC02_ESTIMATE#MOE_SUBJECT#VC30,Percent; Margin of Error; Population 20 to 24 years
+BOXHEAD#HC03_ESTIMATE#EST_SUBJECT#VC30,In public school; Estimate; Population 20 to 24 years
+BOXHEAD#HC03_ESTIMATE#MOE_SUBJECT#VC30,In public school; Margin of Error; Population 20 to 24 years
+BOXHEAD#HC04_ESTIMATE#EST_SUBJECT#VC30,Percent in public school; Estimate; Population 20 to 24 years
+BOXHEAD#HC04_ESTIMATE#MOE_SUBJECT#VC30,Percent in public school; Margin of Error; Population 20 to 24 years
+BOXHEAD#HC05_ESTIMATE#EST_SUBJECT#VC30,In private school; Estimate; Population 20 to 24 years
+BOXHEAD#HC05_ESTIMATE#MOE_SUBJECT#VC30,In private school; Margin of Error; Population 20 to 24 years
+BOXHEAD#HC06_ESTIMATE#EST_SUBJECT#VC30,Percent in private school; Estimate; Population 20 to 24 years
+BOXHEAD#HC06_ESTIMATE#MOE_SUBJECT#VC30,Percent in private school; Margin of Error; Population 20 to 24 years
+BOXHEAD#HC01_ESTIMATE#EST_SUBJECT#VC31,Total; Estimate; Population 20 to 24 years - 20 to 24 year olds enrolled in school
+BOXHEAD#HC01_ESTIMATE#MOE_SUBJECT#VC31,Total; Margin of Error; Population 20 to 24 years - 20 to 24 year olds enrolled in school
+BOXHEAD#HC02_ESTIMATE#EST_SUBJECT#VC31,Percent; Estimate; Population 20 to 24 years - 20 to 24 year olds enrolled in school
+BOXHEAD#HC02_ESTIMATE#MOE_SUBJECT#VC31,Percent; Margin of Error; Population 20 to 24 years - 20 to 24 year olds enrolled in school
+BOXHEAD#HC03_ESTIMATE#EST_SUBJECT#VC31,In public school; Estimate; Population 20 to 24 years - 20 to 24 year olds enrolled in school
+BOXHEAD#HC03_ESTIMATE#MOE_SUBJECT#VC31,In public school; Margin of Error; Population 20 to 24 years - 20 to 24 year olds enrolled in school
+BOXHEAD#HC04_ESTIMATE#EST_SUBJECT#VC31,Percent in public school; Estimate; Population 20 to 24 years - 20 to 24 year olds enrolled in school
+BOXHEAD#HC04_ESTIMATE#MOE_SUBJECT#VC31,Percent in public school; Margin of Error; Population 20 to 24 years - 20 to 24 year olds enrolled in school
+BOXHEAD#HC05_ESTIMATE#EST_SUBJECT#VC31,In private school; Estimate; Population 20 to 24 years - 20 to 24 year olds enrolled in school
+BOXHEAD#HC05_ESTIMATE#MOE_SUBJECT#VC31,In private school; Margin of Error; Population 20 to 24 years - 20 to 24 year olds enrolled in school
+BOXHEAD#HC06_ESTIMATE#EST_SUBJECT#VC31,Percent in private school; Estimate; Population 20 to 24 years - 20 to 24 year olds enrolled in school
+BOXHEAD#HC06_ESTIMATE#MOE_SUBJECT#VC31,Percent in private school; Margin of Error; Population 20 to 24 years - 20 to 24 year olds enrolled in school
+BOXHEAD#HC01_ESTIMATE#EST_SUBJECT#VC33,Total; Estimate; Population 25 to 34 years
+BOXHEAD#HC01_ESTIMATE#MOE_SUBJECT#VC33,Total; Margin of Error; Population 25 to 34 years
+BOXHEAD#HC02_ESTIMATE#EST_SUBJECT#VC33,Percent; Estimate; Population 25 to 34 years
+BOXHEAD#HC02_ESTIMATE#MOE_SUBJECT#VC33,Percent; Margin of Error; Population 25 to 34 years
+BOXHEAD#HC03_ESTIMATE#EST_SUBJECT#VC33,In public school; Estimate; Population 25 to 34 years
+BOXHEAD#HC03_ESTIMATE#MOE_SUBJECT#VC33,In public school; Margin of Error; Population 25 to 34 years
+BOXHEAD#HC04_ESTIMATE#EST_SUBJECT#VC33,Percent in public school; Estimate; Population 25 to 34 years
+BOXHEAD#HC04_ESTIMATE#MOE_SUBJECT#VC33,Percent in public school; Margin of Error; Population 25 to 34 years
+BOXHEAD#HC05_ESTIMATE#EST_SUBJECT#VC33,In private school; Estimate; Population 25 to 34 years
+BOXHEAD#HC05_ESTIMATE#MOE_SUBJECT#VC33,In private school; Margin of Error; Population 25 to 34 years
+BOXHEAD#HC06_ESTIMATE#EST_SUBJECT#VC33,Percent in private school; Estimate; Population 25 to 34 years
+BOXHEAD#HC06_ESTIMATE#MOE_SUBJECT#VC33,Percent in private school; Margin of Error; Population 25 to 34 years
+BOXHEAD#HC01_ESTIMATE#EST_SUBJECT#VC34,Total; Estimate; Population 25 to 34 years - 25 to 34 year olds enrolled in school
+BOXHEAD#HC01_ESTIMATE#MOE_SUBJECT#VC34,Total; Margin of Error; Population 25 to 34 years - 25 to 34 year olds enrolled in school
+BOXHEAD#HC02_ESTIMATE#EST_SUBJECT#VC34,Percent; Estimate; Population 25 to 34 years - 25 to 34 year olds enrolled in school
+BOXHEAD#HC02_ESTIMATE#MOE_SUBJECT#VC34,Percent; Margin of Error; Population 25 to 34 years - 25 to 34 year olds enrolled in school
+BOXHEAD#HC03_ESTIMATE#EST_SUBJECT#VC34,In public school; Estimate; Population 25 to 34 years - 25 to 34 year olds enrolled in school
+BOXHEAD#HC03_ESTIMATE#MOE_SUBJECT#VC34,In public school; Margin of Error; Population 25 to 34 years - 25 to 34 year olds enrolled in school
+BOXHEAD#HC04_ESTIMATE#EST_SUBJECT#VC34,Percent in public school; Estimate; Population 25 to 34 years - 25 to 34 year olds enrolled in school
+BOXHEAD#HC04_ESTIMATE#MOE_SUBJECT#VC34,Percent in public school; Margin of Error; Population 25 to 34 years - 25 to 34 year olds enrolled in school
+BOXHEAD#HC05_ESTIMATE#EST_SUBJECT#VC34,In private school; Estimate; Population 25 to 34 years - 25 to 34 year olds enrolled in school
+BOXHEAD#HC05_ESTIMATE#MOE_SUBJECT#VC34,In private school; Margin of Error; Population 25 to 34 years - 25 to 34 year olds enrolled in school
+BOXHEAD#HC06_ESTIMATE#EST_SUBJECT#VC34,Percent in private school; Estimate; Population 25 to 34 years - 25 to 34 year olds enrolled in school
+BOXHEAD#HC06_ESTIMATE#MOE_SUBJECT#VC34,Percent in private school; Margin of Error; Population 25 to 34 years - 25 to 34 year olds enrolled in school
+BOXHEAD#HC01_ESTIMATE#EST_SUBJECT#VC36,Total; Estimate; Population 35 years and over
+BOXHEAD#HC01_ESTIMATE#MOE_SUBJECT#VC36,Total; Margin of Error; Population 35 years and over
+BOXHEAD#HC02_ESTIMATE#EST_SUBJECT#VC36,Percent; Estimate; Population 35 years and over
+BOXHEAD#HC02_ESTIMATE#MOE_SUBJECT#VC36,Percent; Margin of Error; Population 35 years and over
+BOXHEAD#HC03_ESTIMATE#EST_SUBJECT#VC36,In public school; Estimate; Population 35 years and over
+BOXHEAD#HC03_ESTIMATE#MOE_SUBJECT#VC36,In public school; Margin of Error; Population 35 years and over
+BOXHEAD#HC04_ESTIMATE#EST_SUBJECT#VC36,Percent in public school; Estimate; Population 35 years and over
+BOXHEAD#HC04_ESTIMATE#MOE_SUBJECT#VC36,Percent in public school; Margin of Error; Population 35 years and over
+BOXHEAD#HC05_ESTIMATE#EST_SUBJECT#VC36,In private school; Estimate; Population 35 years and over
+BOXHEAD#HC05_ESTIMATE#MOE_SUBJECT#VC36,In private school; Margin of Error; Population 35 years and over
+BOXHEAD#HC06_ESTIMATE#EST_SUBJECT#VC36,Percent in private school; Estimate; Population 35 years and over
+BOXHEAD#HC06_ESTIMATE#MOE_SUBJECT#VC36,Percent in private school; Margin of Error; Population 35 years and over
+BOXHEAD#HC01_ESTIMATE#EST_SUBJECT#VC37,Total; Estimate; Population 35 years and over - 35 years and over enrolled in school
+BOXHEAD#HC01_ESTIMATE#MOE_SUBJECT#VC37,Total; Margin of Error; Population 35 years and over - 35 years and over enrolled in school
+BOXHEAD#HC02_ESTIMATE#EST_SUBJECT#VC37,Percent; Estimate; Population 35 years and over - 35 years and over enrolled in school
+BOXHEAD#HC02_ESTIMATE#MOE_SUBJECT#VC37,Percent; Margin of Error; Population 35 years and over - 35 years and over enrolled in school
+BOXHEAD#HC03_ESTIMATE#EST_SUBJECT#VC37,In public school; Estimate; Population 35 years and over - 35 years and over enrolled in school
+BOXHEAD#HC03_ESTIMATE#MOE_SUBJECT#VC37,In public school; Margin of Error; Population 35 years and over - 35 years and over enrolled in school
+BOXHEAD#HC04_ESTIMATE#EST_SUBJECT#VC37,Percent in public school; Estimate; Population 35 years and over - 35 years and over enrolled in school
+BOXHEAD#HC04_ESTIMATE#MOE_SUBJECT#VC37,Percent in public school; Margin of Error; Population 35 years and over - 35 years and over enrolled in school
+BOXHEAD#HC05_ESTIMATE#EST_SUBJECT#VC37,In private school; Estimate; Population 35 years and over - 35 years and over enrolled in school
+BOXHEAD#HC05_ESTIMATE#MOE_SUBJECT#VC37,In private school; Margin of Error; Population 35 years and over - 35 years and over enrolled in school
+BOXHEAD#HC06_ESTIMATE#EST_SUBJECT#VC37,Percent in private school; Estimate; Population 35 years and over - 35 years and over enrolled in school
+BOXHEAD#HC06_ESTIMATE#MOE_SUBJECT#VC37,Percent in private school; Margin of Error; Population 35 years and over - 35 years and over enrolled in school
+BOXHEAD#HC01_ESTIMATE#EST_SUBJECT#VC39,Total; Estimate; Population 18 to 24 years
+BOXHEAD#HC01_ESTIMATE#MOE_SUBJECT#VC39,Total; Margin of Error; Population 18 to 24 years
+BOXHEAD#HC02_ESTIMATE#EST_SUBJECT#VC39,Percent; Estimate; Population 18 to 24 years
+BOXHEAD#HC02_ESTIMATE#MOE_SUBJECT#VC39,Percent; Margin of Error; Population 18 to 24 years
+BOXHEAD#HC03_ESTIMATE#EST_SUBJECT#VC39,In public school; Estimate; Population 18 to 24 years
+BOXHEAD#HC03_ESTIMATE#MOE_SUBJECT#VC39,In public school; Margin of Error; Population 18 to 24 years
+BOXHEAD#HC04_ESTIMATE#EST_SUBJECT#VC39,Percent in public school; Estimate; Population 18 to 24 years
+BOXHEAD#HC04_ESTIMATE#MOE_SUBJECT#VC39,Percent in public school; Margin of Error; Population 18 to 24 years
+BOXHEAD#HC05_ESTIMATE#EST_SUBJECT#VC39,In private school; Estimate; Population 18 to 24 years
+BOXHEAD#HC05_ESTIMATE#MOE_SUBJECT#VC39,In private school; Margin of Error; Population 18 to 24 years
+BOXHEAD#HC06_ESTIMATE#EST_SUBJECT#VC39,Percent in private school; Estimate; Population 18 to 24 years
+BOXHEAD#HC06_ESTIMATE#MOE_SUBJECT#VC39,Percent in private school; Margin of Error; Population 18 to 24 years
+BOXHEAD#HC01_ESTIMATE#EST_SUBJECT#VC40,Total; Estimate; Population 18 to 24 years - Enrolled in college or graduate school
+BOXHEAD#HC01_ESTIMATE#MOE_SUBJECT#VC40,Total; Margin of Error; Population 18 to 24 years - Enrolled in college or graduate school
+BOXHEAD#HC02_ESTIMATE#EST_SUBJECT#VC40,Percent; Estimate; Population 18 to 24 years - Enrolled in college or graduate school
+BOXHEAD#HC02_ESTIMATE#MOE_SUBJECT#VC40,Percent; Margin of Error; Population 18 to 24 years - Enrolled in college or graduate school
+BOXHEAD#HC03_ESTIMATE#EST_SUBJECT#VC40,In public school; Estimate; Population 18 to 24 years - Enrolled in college or graduate school
+BOXHEAD#HC03_ESTIMATE#MOE_SUBJECT#VC40,In public school; Margin of Error; Population 18 to 24 years - Enrolled in college or graduate school
+BOXHEAD#HC04_ESTIMATE#EST_SUBJECT#VC40,Percent in public school; Estimate; Population 18 to 24 years - Enrolled in college or graduate school
+BOXHEAD#HC04_ESTIMATE#MOE_SUBJECT#VC40,Percent in public school; Margin of Error; Population 18 to 24 years - Enrolled in college or graduate school
+BOXHEAD#HC05_ESTIMATE#EST_SUBJECT#VC40,In private school; Estimate; Population 18 to 24 years - Enrolled in college or graduate school
+BOXHEAD#HC05_ESTIMATE#MOE_SUBJECT#VC40,In private school; Margin of Error; Population 18 to 24 years - Enrolled in college or graduate school
+BOXHEAD#HC06_ESTIMATE#EST_SUBJECT#VC40,Percent in private school; Estimate; Population 18 to 24 years - Enrolled in college or graduate school
+BOXHEAD#HC06_ESTIMATE#MOE_SUBJECT#VC40,Percent in private school; Margin of Error; Population 18 to 24 years - Enrolled in college or graduate school
+BOXHEAD#HC01_ESTIMATE#EST_SUBJECT#VC42,Total; Estimate; Males 18 to 24 years
+BOXHEAD#HC01_ESTIMATE#MOE_SUBJECT#VC42,Total; Margin of Error; Males 18 to 24 years
+BOXHEAD#HC02_ESTIMATE#EST_SUBJECT#VC42,Percent; Estimate; Males 18 to 24 years
+BOXHEAD#HC02_ESTIMATE#MOE_SUBJECT#VC42,Percent; Margin of Error; Males 18 to 24 years
+BOXHEAD#HC03_ESTIMATE#EST_SUBJECT#VC42,In public school; Estimate; Males 18 to 24 years
+BOXHEAD#HC03_ESTIMATE#MOE_SUBJECT#VC42,In public school; Margin of Error; Males 18 to 24 years
+BOXHEAD#HC04_ESTIMATE#EST_SUBJECT#VC42,Percent in public school; Estimate; Males 18 to 24 years
+BOXHEAD#HC04_ESTIMATE#MOE_SUBJECT#VC42,Percent in public school; Margin of Error; Males 18 to 24 years
+BOXHEAD#HC05_ESTIMATE#EST_SUBJECT#VC42,In private school; Estimate; Males 18 to 24 years
+BOXHEAD#HC05_ESTIMATE#MOE_SUBJECT#VC42,In private school; Margin of Error; Males 18 to 24 years
+BOXHEAD#HC06_ESTIMATE#EST_SUBJECT#VC42,Percent in private school; Estimate; Males 18 to 24 years
+BOXHEAD#HC06_ESTIMATE#MOE_SUBJECT#VC42,Percent in private school; Margin of Error; Males 18 to 24 years
+BOXHEAD#HC01_ESTIMATE#EST_SUBJECT#VC43,Total; Estimate; Males 18 to 24 years - Enrolled in college or graduate school
+BOXHEAD#HC01_ESTIMATE#MOE_SUBJECT#VC43,Total; Margin of Error; Males 18 to 24 years - Enrolled in college or graduate school
+BOXHEAD#HC02_ESTIMATE#EST_SUBJECT#VC43,Percent; Estimate; Males 18 to 24 years - Enrolled in college or graduate school
+BOXHEAD#HC02_ESTIMATE#MOE_SUBJECT#VC43,Percent; Margin of Error; Males 18 to 24 years - Enrolled in college or graduate school
+BOXHEAD#HC03_ESTIMATE#EST_SUBJECT#VC43,In public school; Estimate; Males 18 to 24 years - Enrolled in college or graduate school
+BOXHEAD#HC03_ESTIMATE#MOE_SUBJECT#VC43,In public school; Margin of Error; Males 18 to 24 years - Enrolled in college or graduate school
+BOXHEAD#HC04_ESTIMATE#EST_SUBJECT#VC43,Percent in public school; Estimate; Males 18 to 24 years - Enrolled in college or graduate school
+BOXHEAD#HC04_ESTIMATE#MOE_SUBJECT#VC43,Percent in public school; Margin of Error; Males 18 to 24 years - Enrolled in college or graduate school
+BOXHEAD#HC05_ESTIMATE#EST_SUBJECT#VC43,In private school; Estimate; Males 18 to 24 years - Enrolled in college or graduate school
+BOXHEAD#HC05_ESTIMATE#MOE_SUBJECT#VC43,In private school; Margin of Error; Males 18 to 24 years - Enrolled in college or graduate school
+BOXHEAD#HC06_ESTIMATE#EST_SUBJECT#VC43,Percent in private school; Estimate; Males 18 to 24 years - Enrolled in college or graduate school
+BOXHEAD#HC06_ESTIMATE#MOE_SUBJECT#VC43,Percent in private school; Margin of Error; Males 18 to 24 years - Enrolled in college or graduate school
+BOXHEAD#HC01_ESTIMATE#EST_SUBJECT#VC45,Total; Estimate; Females 18 to 24 years
+BOXHEAD#HC01_ESTIMATE#MOE_SUBJECT#VC45,Total; Margin of Error; Females 18 to 24 years
+BOXHEAD#HC02_ESTIMATE#EST_SUBJECT#VC45,Percent; Estimate; Females 18 to 24 years
+BOXHEAD#HC02_ESTIMATE#MOE_SUBJECT#VC45,Percent; Margin of Error; Females 18 to 24 years
+BOXHEAD#HC03_ESTIMATE#EST_SUBJECT#VC45,In public school; Estimate; Females 18 to 24 years
+BOXHEAD#HC03_ESTIMATE#MOE_SUBJECT#VC45,In public school; Margin of Error; Females 18 to 24 years
+BOXHEAD#HC04_ESTIMATE#EST_SUBJECT#VC45,Percent in public school; Estimate; Females 18 to 24 years
+BOXHEAD#HC04_ESTIMATE#MOE_SUBJECT#VC45,Percent in public school; Margin of Error; Females 18 to 24 years
+BOXHEAD#HC05_ESTIMATE#EST_SUBJECT#VC45,In private school; Estimate; Females 18 to 24 years
+BOXHEAD#HC05_ESTIMATE#MOE_SUBJECT#VC45,In private school; Margin of Error; Females 18 to 24 years
+BOXHEAD#HC06_ESTIMATE#EST_SUBJECT#VC45,Percent in private school; Estimate; Females 18 to 24 years
+BOXHEAD#HC06_ESTIMATE#MOE_SUBJECT#VC45,Percent in private school; Margin of Error; Females 18 to 24 years
+BOXHEAD#HC01_ESTIMATE#EST_SUBJECT#VC46,Total; Estimate; Females 18 to 24 years - Enrolled in college or graduate school
+BOXHEAD#HC01_ESTIMATE#MOE_SUBJECT#VC46,Total; Margin of Error; Females 18 to 24 years - Enrolled in college or graduate school
+BOXHEAD#HC02_ESTIMATE#EST_SUBJECT#VC46,Percent; Estimate; Females 18 to 24 years - Enrolled in college or graduate school
+BOXHEAD#HC02_ESTIMATE#MOE_SUBJECT#VC46,Percent; Margin of Error; Females 18 to 24 years - Enrolled in college or graduate school
+BOXHEAD#HC03_ESTIMATE#EST_SUBJECT#VC46,In public school; Estimate; Females 18 to 24 years - Enrolled in college or graduate school
+BOXHEAD#HC03_ESTIMATE#MOE_SUBJECT#VC46,In public school; Margin of Error; Females 18 to 24 years - Enrolled in college or graduate school
+BOXHEAD#HC04_ESTIMATE#EST_SUBJECT#VC46,Percent in public school; Estimate; Females 18 to 24 years - Enrolled in college or graduate school
+BOXHEAD#HC04_ESTIMATE#MOE_SUBJECT#VC46,Percent in public school; Margin of Error; Females 18 to 24 years - Enrolled in college or graduate school
+BOXHEAD#HC05_ESTIMATE#EST_SUBJECT#VC46,In private school; Estimate; Females 18 to 24 years - Enrolled in college or graduate school
+BOXHEAD#HC05_ESTIMATE#MOE_SUBJECT#VC46,In private school; Margin of Error; Females 18 to 24 years - Enrolled in college or graduate school
+BOXHEAD#HC06_ESTIMATE#EST_SUBJECT#VC46,Percent in private school; Estimate; Females 18 to 24 years - Enrolled in college or graduate school
+BOXHEAD#HC06_ESTIMATE#MOE_SUBJECT#VC46,Percent in private school; Margin of Error; Females 18 to 24 years - Enrolled in college or graduate school
