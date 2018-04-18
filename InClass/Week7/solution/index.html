@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Census Data: Household income</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700" rel="stylesheet">
+    <link href="../style.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <h1 class="col-md-12">Census Data: Household income</h1>
+        <p class="col-md-12">Data from <a href="https://data.census.gov/">Census.gov</a></p>
+        <h2 class="col-md-12">Household income by region</h2>
+        <p class="legend">In US$</p>
+        <p class="legend blue">Northeast</p>
+        <p class="legend yellow">Midwest</p>
+        <p class="legend red">South</p>
+        <p class="legend green">West</p>
+        <div class="col-md-12">
+            <p class="btn btn-default btnBarChart" id="Region">By Region</p>
+            <p class="btn btn-default btnBarChart" id="Division">By Division</p>
+        </div>
+        <div class="tooltipBar col-md-12">
+            <p id="numberBar"></p>
+        </div>
+        <div id='plot1' class="col-md-12"></div>
+        <h2 class="col-md-12">Income per household member, by race</h2>
+        <div class="col-md-8">
+            <p class="legend">In US$</p>
+            <p class="legend">All</p>
+            <p class="legend green">Asian</p>
+            <p class="legend red">Black</p>
+            <p class="legend blue">Hispanic</p>
+            <p class="legend yellow">White</p>
+        </div>
+        <div class="col-md-4">
+            <div class="lists">
+                <div class="control-module drop-down">
+                    <div class="select">
+                        <span class="list-title">Select</span>
+                        <select class="form-control values-list" id="values"></select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id='plot2' class="col-md-12"></div>
+    </div>
+</div>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://d3js.org/topojson.v2.min.js"></script>
+<script src="script_1.js"></script>
+</body>
+</html>
