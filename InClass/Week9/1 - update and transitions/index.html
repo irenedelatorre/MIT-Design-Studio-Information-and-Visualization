@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Olympic games medals by country</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700" rel="stylesheet">
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <h1 class="col-md-12">Olympic games medals by country</h1>
+        <p class="col-md-12">Data from <a href="https://en.wikipedia.org">Wikipedia</a></p>
+        <div class="col-md-12">
+            <p class="btn btn-default btnBarChart" id="2016">2016</p>
+            <p class="btn btn-default btnBarChart" id="2012">2012</p>
+            <p class="btn btn-default btnBarChart" id="2008">2008</p>
+        </div>
+        <div id='plot1' class="col-md-12"></div>
+    </div>
+</div>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="script_1.js"></script>
+</body>
+</html>

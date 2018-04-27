@@ -9,6 +9,7 @@ h2{
 }
 
 #plot1, #plot2{
+    width:100%;
     height:300px;
     margin-bottom:50px;
 }
