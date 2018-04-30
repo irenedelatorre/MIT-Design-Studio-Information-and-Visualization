@@ -30,41 +30,100 @@ var scaleR = d3.scaleSqrt().range([5,maxR]);
 // queue data files, parse them and use them
 var queue = d3.queue()
     .defer(d3.csv, "data/medals.csv", parseData)
-
     .await(dataloaded);
 
 function dataloaded (err,data){
 
-    //TODO search for the maximum and minimum gold medals
 
+    //TODO search for the maximum and minimum gold medals
+    var extentMedals = d3.extent(data,function(d){return d.gold});
+    scaleR.domain(extentMedals);
 
     //TODO update ScaleR according to the minimum and maximum values of  gold medals
 
 
-    draw();
+    draw("2016");
 
     //TODO draw plot depending on year selected
+    d3.selectAll(".btnBarChart").on("click",function(){
+        var thisYear = this.getAttribute("id");
+
+        draw(thisYear)
+    });
 
 
     function draw(year){
 
-        // filter the data for the corresponding day
+        console.log(year)
+
+        // filter the data for the corresponding year
+        var thisData = data.filter(function(d){return d.year === +year && d.rank <=5})
+
+        console.log(thisData)
         // filter the data to return only the three countries with most medals
 
 
         //TODO append data to draw circles
-        // var circles = ...;
+        var circles = plotMedal.selectAll(".medals")
+            .data(thisData,function(d){return d.country});
 
         //enter the data
+        circles.enter()
+            .append("circle")
+            .attr("class","medals")
+            .attr("cx",function(d){return scaleX(d.rank)})
+            .attr("cy",0)
+            .style("opacity",0)
+            .transition()
+            .duration(500)
+            .style("opacity",1)
+            .style("fill",yellow)
+            .attr("cy",height/2)
 
+            .attr("r",function(d){return scaleR(d.gold)});
 
         //exit
+        circles.exit()
+            .transition()
+            .duration(500)
+            .attr("cy",height)
+            .remove();
 
         //update
+        circles
+            .transition()
+            .duration(500)
+            .attr("cx",function(d){return scaleX(d.rank)})
+            .attr("r",function(d){return scaleR(d.gold)});
+
+
 
 
         //TODO append data for texts
-        // var text = ...
+        var text = plotMedal.selectAll(".countries")
+            .data(thisData,function(d){return d.country});
+
+       text
+           .enter()
+           .append("text")
+           .attr("class","countries")
+           .text(function(d){return d.abv})
+           .attr("x",function(d){return scaleX(d.rank)})
+           .attr("y",0)
+           .attr("text-anchor","middle")
+           .style("opacity",0)
+           .transition()
+           .duration(500)
+           .style("opacity",1)
+           .style("fill","black")
+           .attr("y",height/2+3);
+
+       text.exit().remove();
+
+       text
+           .transition()
+           .duration(500)
+           .attr("x",function(d){return scaleX(d.rank)});
 
 
 
@@ -81,7 +140,7 @@ function parseData(d){
         rank: +d.Rank,
         country: d.Country,
         abv: d.Abreviation,
-        gold: +d.Gold
+        gold: +d.Gold,
     }
 }
 
