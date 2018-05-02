@@ -1,0 +1,43 @@
+body {
+    padding: 50px;
+    font-family: "HelveticaNeueLT Std","Helvetica LT Std Light", "Helvetica", "Arial", "sans-serif";
+}
+
+h2{
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+#plot1, #plot2{
+    height:550px;
+    margin-bottom:50px;
+}
+
+.nodeNames{
+    text-transform: uppercase;
+    font-size: 9pt;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+.nodeValues{
+    font-size: 8pt;
+}
+
+.red {
+    color: #c63232
+}
+
+.yellow {
+    color: #ffb400
+}
+
+.blue {
+    color: #66b2c5
+}
+
+.btn-default {
+    background-color: #eaeaea;
+    font-size: 10pt;
+    margin-bottom: 40px;
+}
